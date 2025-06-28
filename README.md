@@ -107,7 +107,7 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Ima Sharanasinghe** - *Initial work* - [imasharanasinghe](https://github.com/imasharanasinghe)
 
 ## 🙏 Acknowledgments
 
@@ -124,4 +124,4 @@ If you encounter any issues or have questions, please:
 
 ---
 
-**Note**: This is a Java web application. Do not use `npm start` as this is not a Node.js project. 
+**Note**: This is a Java web application. Do not use `npm start` as this is not a Node.js project.
