@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header Section */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Registration Form Section */
+#register {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#register h2 {
+    color: #003366; /* Blue color */
+    margin-bottom: 20px;
+}
+
+#register form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #003366; /* Blue shadow */
+}
+
+.form-section {
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-section h3 {
+    color: #003366; /* Blue color */
+    margin-bottom: 15px;
+}
+
+#register label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333333;
+}
+
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="number"],
+#register input[type="date"],
+#register input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 1em;
+}
+
+#register textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 1em;
+}
+
+#register button {
+    background-color: #003366; /* Blue color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#register button:hover {
+    background-color: #005599; /* Darker blue */
+}
+
+#register p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

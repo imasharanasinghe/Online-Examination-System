@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.servicescard {
+  display: flex;
+
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  padding: 0px 10%;
+}
+.card_home {
+  width: 350px;
+  border: 1px solid #0273f3;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  height: 440px;
+}
+.card_img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.btn_card {
+  background-color: #0273f3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.topi_main {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.perabout {
+  text-transform: capitalize;
+  text-align: center;
+}
+.cover_container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+.cover_logo {
+  width: 100%;
+}
+.name_homehome {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0273f3;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.subnamehme {
+  text-transform: capitalize;
+  padding: 0 10% 0 0;
+}
+.clm {
+  flex: 1 1;
+}
+
+nav {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.logonav {
+  border-radius: 8px;
+  width: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.itemset {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  gap: 25px;
+  justify-content: center;
+}
+.nav_name {
+  color: black;
+  text-decoration: none;
+}
+.main_card_dash {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}

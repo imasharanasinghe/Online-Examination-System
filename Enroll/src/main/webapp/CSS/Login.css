@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header Section */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container for Login Form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* Profile Icon */
+.profile-icon {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Login Form Section */
+.login-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 40px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #003366; /* Blue shadow */
+    text-align: center;
+}
+
+.login-form h1 {
+    color: #003366; /* Blue color */
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333333;
+}
+
+.login-form .form-group {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 1em;
+}
+
+.login-form .btnn {
+    background-color: #003366; /* Blue color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-form .btnn:hover {
+    background-color: #003366; /* Darker blue */
+}
+
+.login-form p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

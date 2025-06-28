@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+}
+
+header {
+    background-color: #003366; /* Dark header */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* White text */
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 32px; /* Large heading */
+}
+
+.container {
+    padding: 40px; /* Adjusted padding */
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Centered with margin */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Space below label */
+    font-size: 16px; /* Slightly larger font */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] { /* Updated to include email and date inputs */
+    padding: 12px; /* Slightly increased padding */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Consistent font size */
+}
+
+input[readonly] {
+    background-color: #f9f9f9; /* Light grey for read-only fields */
+}
+
+.submit-btn {
+    padding: 15px 25px; /* Adjusted padding */
+    font-size: 18px; /* Consistent button size */
+    background-color: #003366; /* Green button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    align-self: flex-start; /* Align button to the start */
+}
+
+.submit-btn:hover {
+    background-color: #003366; /* Darker green on hover */
+}
+
+footer {
+    background-color: #003366; /* Dark footer */
+    color: #ffffff; /* White text */
+    text-align: center; /* Centered footer text */
+    padding: 10px 0; /* Vertical padding */
+    position: relative; /* Footer position */
+    bottom: 0; /* Aligns footer at the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer-content p {
+    margin: 0; /* No margin */
+    font-size: 14px; /* Smaller font */
+}
+
+.footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+    display: flex; /* Flexbox for links */
+    justify-content: center; /* Center links */
+    gap: 20px; /* Space between links */
+}
+
+.footer-links li {
+    display: inline; /* Inline list items */
+}
+
+.footer-links a {
+    color: #ffffff; /* White links */
+    text-decoration: none; /* No underline */
+    font-size: 14px; /* Smaller font */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
