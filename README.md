@@ -2,7 +2,7 @@
 
 A comprehensive web-based examination management system built with Java JSP and MySQL.
 
-## 🎯 Features
+## Features
 
 - **User Management**: Student registration, login, and profile management
 - **Exam Scheduling**: Admin can schedule exams with detailed information
@@ -10,7 +10,7 @@ A comprehensive web-based examination management system built with Java JSP and 
 - **Query Management**: Students can submit inquiries and track responses
 - **Admin Dashboard**: Complete administrative control over the system
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 OES/
@@ -23,7 +23,7 @@ OES/
 └── README.md            # This file
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: Java JSP, Servlets
 - **Database**: MySQL
@@ -31,14 +31,14 @@ OES/
 - **Server**: Apache Tomcat
 - **Build Tool**: Maven (recommended)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java JDK 8 or higher
 - Apache Tomcat 8.5 or higher
 - MySQL 8.0 or higher
 - Eclipse/IntelliJ IDEA (for development)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Database Setup
 ```sql
@@ -56,7 +56,7 @@ mysql -u your_username -p < Examination.sql
 - Update database connection settings in your servlet configuration
 - Ensure Tomcat is running on port 8090 (as referenced in JSP files)
 
-## 🎮 Usage
+## Usage
 
 ### For Students:
 1. Register/Login at `http://localhost:8090/User/Login.jsp`
@@ -72,7 +72,7 @@ mysql -u your_username -p < Examination.sql
 3. Manage student enrollments
 4. Respond to student queries
 
-## 📊 Database Schema
+## Database Schema
 
 ### Tables:
 - **user**: User registration and authentication
@@ -80,7 +80,7 @@ mysql -u your_username -p < Examination.sql
 - **enroll**: Student exam enrollments
 - **queries**: Student inquiries and responses
 
-## 🔧 Development
+## Development
 
 ### Adding New Features:
 1. Create new JSP files in appropriate modules
@@ -93,29 +93,17 @@ mysql -u your_username -p < Examination.sql
 - Follow MVC pattern for clean code organization
 - Use consistent naming conventions
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
+## License
 
 This project is licensed under the ISC License - see the LICENSE file for details.
 
-## 👥 Authors
-
-- **Ima Sharanasinghe** - *Initial work* - [imasharanasinghe](https://github.com/imasharanasinghe)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Java EE community
 - MySQL documentation
 - Apache Tomcat team
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions, please:
 1. Check the existing issues
